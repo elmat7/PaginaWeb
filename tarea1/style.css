@@ -1,0 +1,18 @@
+.tarjeta {
+    border: 2px solid yellow;
+    padding: 15px;
+    margin: 20px;
+}
+
+.tarjeta1 {
+    background-color: blue;
+    
+}
+
+.tarjeta2 {
+    background-color: red;
+}
+
+.tarjeta3 {
+    background-color: green;
+}

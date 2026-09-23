@@ -1,0 +1,50 @@
+
+body {
+    background-color: #e0f7fa; 
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+
+.box {
+    background-color: #ffffff; 
+    width: 200px;
+    padding: 20px; 
+    border: 2px solid #00bcd4;
+    border-radius: 10px; 
+    text-align: center; 
+}
+
+
+.box h2 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #333333;
+    font-size: 14px;
+}
+
+.box .precio {
+    color: #e91e63;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-comprar {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

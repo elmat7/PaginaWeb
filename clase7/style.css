@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background-color: white;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+nav button {
+    background-color: #333;
+    color: white;
+
+    border: none;
+    padding: 10px 15px;
+
+    font-weight: bold;
+}
+
+
+.principal {
+    display: flex;
+
+    width: 90%;
+    margin: 30px auto;
+
+    background-color: #d7e4dc;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    align-items: center;
+}
+
+
+.texto {
+    width: 50%;
+}
+
+.texto h1 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.texto h1 span {
+    background-color: #fd9926;
+    padding: 5px;
+}
+
+.texto p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+
+.comprar {
+    background-color: #333;
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    font-weight: bold;
+}
+
+
+.imagen {
+    width: 50%;
+    text-align: center;
+}
+
+.imagen img {
+    width: 80%;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+}
+
+
+.marcas {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #ffae34;
+
+    padding: 20px;
+
+    font-weight: bold;
+}
+
+
